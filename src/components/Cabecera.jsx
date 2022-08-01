@@ -4,7 +4,7 @@ import { FaFacebook, FaGoogle, FaInstagramSquare, FaTwitter, FaWhatsapp, FaBars 
 import "../sheetStyles/cabecera.css";
 import icon from "../images/favicon.ico";
 
-function Cabecera(){
+function Cabecera(props){
     const hover = () => {
         document.querySelector("#barraNombreEmpresa").style.display = "flex";
         document.querySelector("#barraNombreEmpresa").style.animation = "moveBarra 1s forwards";
@@ -48,7 +48,7 @@ function Cabecera(){
         <div id="cabecera">
             <nav id="navCabecera">
                 <div>
-                    <img src={icon} alt="icon Paginas Amarrilas" onMouseEnter={hover} onMouseLeave={hoverReverse} />
+                    <img src={icon} alt="icon Paginas Amarrilas" onMouseEnter={hover} onMouseLeave={hoverReverse} onClick={props.setPath.home} />
                     <div id="barraNombreEmpresa">
                         <div className="barraNombreEmpresaMove">
                             <span className="barraNombreEmpresaSpan">
@@ -63,7 +63,7 @@ function Cabecera(){
                     </div>
                 </div>
                 <div>
-                    <a href="#" className="aMenu">Inicio</a>
+                    <a href="#" className="aMenu" onClick={props.setPath.home}>Inicio</a>
                     <a href="#" className="aMenu">Nosotros</a>
                     <a href="#" className="aMenu">Contacto</a>
                     <a href="#" className="aMenu">Registrarse</a>
@@ -106,7 +106,7 @@ function Cabecera(){
 
             <div id="menuBar" onClick={clickIntoToBar}>
                 <div id="menuBar_move" onClick={clickIntoToInto}>
-                    <a href="#" className="aMenuBar">Inicio</a>
+                    <a href="#" className="aMenuBar" onClick={props.setPath.home}>Inicio</a>
                     <a href="#" className="aMenuBar">Nosotros</a>
                     <a href="#" className="aMenuBar">Contacto</a>
                     <a href="#" className="aMenuBar">Registrarse</a>
