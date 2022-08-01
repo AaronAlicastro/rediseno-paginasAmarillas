@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rediseno-paginasAmarillas/static/css/main.86580628.css",
-    "main.js": "/rediseno-paginasAmarillas/static/js/main.81a49149.js",
+    "main.js": "/rediseno-paginasAmarillas/static/js/main.455574c0.js",
     "static/media/favicon.ico": "/rediseno-paginasAmarillas/static/media/favicon.7440355ce570fea9097d.ico",
     "index.html": "/rediseno-paginasAmarillas/index.html",
     "main.86580628.css.map": "/rediseno-paginasAmarillas/static/css/main.86580628.css.map",
-    "main.81a49149.js.map": "/rediseno-paginasAmarillas/static/js/main.81a49149.js.map"
+    "main.455574c0.js.map": "/rediseno-paginasAmarillas/static/js/main.455574c0.js.map"
   },
   "entrypoints": [
     "static/css/main.86580628.css",
-    "static/js/main.81a49149.js"
+    "static/js/main.455574c0.js"
   ]
 }
