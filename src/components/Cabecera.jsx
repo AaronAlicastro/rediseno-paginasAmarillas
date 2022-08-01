@@ -2,7 +2,7 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { FaFacebook, FaGoogle, FaInstagramSquare, FaTwitter, FaWhatsapp, FaBars } from "react-icons/fa";
 import "../sheetStyles/cabecera.css";
-import icon from "../../public/favicon.ico";
+import icon from "../images/favicon.ico";
 
 function Cabecera(){
     const hover = () => {
