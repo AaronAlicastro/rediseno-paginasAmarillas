@@ -1,0 +1,16 @@
+:root{
+  --textoGrande: 24px;
+  --textoMediano: 18px;
+  --textoPequeno: 14px;
+  --colorPrincipal: #ffee00;
+  --fondoPrincipal: #fff679bd;
+  --fondoSeguro: rgb(162, 199, 0);
+  --fontColorPrincipal: #000;
+  --fontColorPrincipal2: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: var(--fontColorPrincipal);
+}

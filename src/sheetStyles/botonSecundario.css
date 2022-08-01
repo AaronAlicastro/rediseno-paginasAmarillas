@@ -1,0 +1,14 @@
+.secundaryButton{
+    background: var(--fontColorPrincipal2);
+    border: 2px solid var(--colorPrincipal);
+    font-size: var(--textoMediano);
+    padding: 10px 18px;
+    border-radius: 7px;
+    cursor: pointer !important;
+}
+.secundaryButton:hover{
+    transition: background .4s;
+    background: var(--fontColorPrincipal);
+    color: var(--fontColorPrincipal2);
+    border: none;
+}

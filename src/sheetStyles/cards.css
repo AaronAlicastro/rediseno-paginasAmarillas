@@ -1,0 +1,38 @@
+.contenedorCarta{
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.contenedorCarta > div{
+    width: 90%;
+    max-width: 700px;
+    border: 1px solid var(--fondoSeguro);
+    border-radius: 12px;
+    padding-bottom: 10px;
+}
+.contenedorCarta > div h6{
+    font-size: var(--textoGrande);
+    background: var(--fondoSeguro);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin: 0;
+}
+.contenedorCarta > div > ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+.containerCARDSlinks a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--fontColorPrincipal);
+}
+
+/* responsive */
+@media(max-width: 500px){
+    .contenedorCarta > div h6{
+        font-size: var(--textoMediano);
+    }
+}

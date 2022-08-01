@@ -1,0 +1,14 @@
+footer{
+    background: var(--fondoPrincipal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    z-index: 1500;
+    box-sizing: border-box;
+}
+footer > label{
+    margin: 4px 0;
+    text-align: justify;
+}

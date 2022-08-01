@@ -1,0 +1,12 @@
+.primaryButton{
+    background: rgb(237,221,0);
+    background: radial-gradient(circle, rgba(237,221,0,0.28) 4%, rgba(255,238,0,1) 100%); 
+    border: none;
+    font-size: var(--textoMediano);
+    padding: 10px 10px;
+    border-radius: 7px;
+    cursor: pointer !important;
+}
+.primaryButton:hover{
+    background: var(--colorPrincipal);
+}

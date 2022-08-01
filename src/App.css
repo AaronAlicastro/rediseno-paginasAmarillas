@@ -1,0 +1,39 @@
+.divApp{
+    margin-top: 130px;
+}
+#divAppHome > h2{
+    text-align: center;
+}
+#divAppHome > p{
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divAppHome > p > span{
+    width: 100%;
+    max-width: 600px;
+}
+#contenedorIMGfondo{
+    height: 250px;
+    background: url('https://paginasamarillascolombianas.com/wp-content/themes/mace/img/backsolo.jpg');
+    background-size: 100%;
+    background-position: cover;
+    display: grid;
+    place-items: center;
+}
+#contenedorIMGfondo > h1{
+    max-width: 500px;
+    min-width: 350px;
+    color: var(--fontColorPrincipal2);
+    text-shadow: 2px 2px #aaa;
+    text-align: center;
+}
+
+/* responsive */
+@media (max-width: 500px){
+    #contenedorIMGfondo > h1{
+        margin: 0 25px;
+    }
+}
